@@ -2,23 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f5e5e5;
 }
 header {
-    background-color: #333;
+    background-color: #771f1f;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 nav {
-    background-color: #ddd;
+    background-color: #771f1f;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 nav a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 main {
@@ -44,6 +44,9 @@ main {
 }
 .menu-item-image:hover {
     transform: scale(1.05);
+}
+.menu-item-text {
+    padding-bottom: 40px;
 }
 .icons {
     position: absolute;
@@ -71,7 +74,7 @@ main {
     background-color: #f06464;
 }
 footer {
-    background-color: #333;
+    background-color: #771f1f;
     color: #fff;
     text-align: center;
     padding: 10px 0;
