@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu | Campus Bistro</title>
@@ -9,6 +8,13 @@
 </head>
 <body>
     <header>
+        <a href="index.html" class="logo">
+            <img src="Media/logo.png" alt="Campus Bistro Logo" />
+        </a>
+        <a href="cart.html" class="cart-icon">
+            <img src="Media/cart-icon.png" alt="Shopping Cart" />
+            <span id="cart-indicator"></span>
+        </a>
         <h1>Menu</h1>
     </header>
     <nav>
@@ -24,7 +30,7 @@
                     <p>A Chicken Tender basket with a side of fries.</p>
                     <p>Price: $6.99</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Chicken Tender Basket">Add to Cart</button>
                 <div class="icons">
                     <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
                 </div>
@@ -35,71 +41,77 @@
                 <div class="menu-item-text">
                     <h2>Chicken Patty Sandwich</h2>
                     <p>Item Description 2</p>
-                    <p>Price: $12</p>
+                    <p>Price: $7.59</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Chicken Patty Sandwich">Add to Cart</button>
                 <div class="icons">
                     <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
                 </div>
             </div>
         </section>
         <!-- Repeat for each menu item, changing the background-image URL and adding the vegan icon where needed -->
+
+        </section>
         <section class="menu-item">
-            <div class="menu-item-image" style="background-image: url('Media/Placeholder.jpg');">
+            <div class="menu-item-image" style="background-image: url('Media/GrilledCheese.jpg');">
                 <div class="menu-item-text">
-                    <h2>Item 3</h2>
-                    <p>Item Description 2</p>
-                    <p>Price: $12</p>
+                    <h2>Grilled Cheese</h2>
+                    <p>A classic grilled cheese sandwich.</p>
+                    <p>Price: $7.99</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Grilled Cheese">Add to Cart</button>
                 <div class="icons">
                     <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
                 </div>
             </div>
         </section>
         <section class="menu-item">
-            <div class="menu-item-image" style="background-image: url('Media/Placeholder.jpg');">
+            <div class="menu-item-image" style="background-image: url('Media/CheeseQuesadilla.jpg');">
                 <div class="menu-item-text">
-                    <h2>Item 4</h2>
-                    <p>Item Description 4</p>
-                    <p>Price: $12</p>
+                    <h2>Cheese Quesadilla</h2>
+                    <p>A cheesy quesadilla with a side of salsa.</p>
+                    <p>Price: $8.99</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Cheese Quesadilla">Add to Cart</button>
                 <div class="icons">
                     <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
                 </div>
             </div>
         </section>
         <section class="menu-item">
-            <div class="menu-item-image" style="background-image: url('Media/Placeholder.jpg');">
+            <div class="menu-item-image" style="background-image: url('Media/GrilledChickenSandwich.jpg');">
                 <div class="menu-item-text">
-                    <h2>Item 5</h2>
-                    <p>Item Description 5</p>
-                    <p>Price: $12</p>
+                    <h2>Grilled Chicken Sandwich</h2>
+                    <p>A grilled chicken sandwich with lettuce and tomato.</p>
+                    <p>Price: $11.99</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Grilled Chicken Sandwich">Add to Cart</button>
                 <div class="icons">
-                    <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
+
                 </div>
             </div>
         </section>
         <section class="menu-item">
-            <div class="menu-item-image" style="background-image: url('Media/Placeholder.jpg');">
+            <div class="menu-item-image" style="background-image: url('Media/InocgmeatoBurger.jpg');">
                 <div class="menu-item-text">
-                    <h2>Item 6</h2>
-                    <p>Item Description 6</p>
+                    <h2>Inocgmeato Burger</h2>
+                    <p>A plant-based burger for the conscious eater.</p>
                     <p>Price: $12</p>
                 </div>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-item="Inocgmeato Burger">Add to Cart</button>
                 <div class="icons">
-                    <img src="Media/Swap.png" alt="Swappable" class="swappable-icon">
+                    <img src="Media/Vegan.png" alt="Vegan" class="vegan-icon">
+                
                 </div>
             </div>
         </section>
         
+        
     </main>
     <footer>
         <!-- Footer content will go here -->
+    </footer>
+    <script src="login.js"></script>
     </footer>
 </body>
 </html>
